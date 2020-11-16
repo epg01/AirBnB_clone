@@ -1,0 +1,58 @@
+.filters {
+
+    /* Color a la caja */
+    background-color: white;
+
+    /* Altura */
+    height: 70px;
+    width: 100%;
+
+    /* Bordes */
+    border: 1px solid #DDDDDD;
+    border-radius: 4px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* Cuando el raton se mueva a la caja: opacidad de*/
+.filters button:hover{
+    opacity: .9;
+}
+
+.filters button {
+    font-size: 18px;
+    background-color: #FF5A5F;
+    color: #FFFFFF;
+    border-radius: 4px;
+    margin-right: 30px;
+    margin-left:auto;
+    /* Opacidad */
+    opacity: 1;
+    width: 20%;
+    border: 0px;
+    height: 48px;
+}
+
+.locations {
+    text-align: left;
+    height: 100%;
+    width: 25%;
+    border-right: 1px solid #DDDDDD;
+    margin-left: 4%;
+}
+.amenities {
+    text-align: left;
+    height: 100%;
+    width: 25%;
+    margin-left: 4%;
+}
+.filters h3, .amenities h3 {
+        font-weight: 600;
+}
+
+.filters h4 {
+        font-weight: 400;
+        font-size: 14px;
+        margin-top: -15px;
+}
